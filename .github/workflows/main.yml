@@ -30,4 +30,6 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
-        run: npm install && npm test && npm run build
+        run: npm install 
+        run: npm test 
+        run: npm run build
